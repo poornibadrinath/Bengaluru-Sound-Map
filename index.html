@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>How do you feel?</title>
+
+  <meta
+    name="viewport"
+    content="initial-scale=1,maximum-scale=1,user-scalable=no"
+  />
+
+  <link
+    href="https://api.mapbox.com/mapbox-gl-js/v3.24.0/mapbox-gl.css"
+    rel="stylesheet"
+  />
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.24.0/mapbox-gl.js"></script>
+
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      inset: 0;
+    }
+
+    /* -------------------------------------------------- */
+    /* POPUPS */
+    /* -------------------------------------------------- */
+
+    .mapboxgl-popup-content {
+      border-radius: 18px;
+      padding: 14px 18px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      border: 2px solid rgba(255,255,255,0.75);
+    }
+
+    .mapboxgl-popup-tip {
+      display: none;
+    }
+
+    .popup-name {
+      font-size: 16px;
+    }
+
+    .popup-score {
+      margin-top: 6px;
+      opacity: 0.85;
+    }
+
+    /* size = sense */
+
+    .popup-bleh .mapboxgl-popup-content {
+      min-width: 120px;
+    }
+
+    .popup-layered .mapboxgl-popup-content {
+      min-width: 180px;
+    }
+
+    .popup-blast .mapboxgl-popup-content {
+      min-width: 260px;
+    }
+
+    /* colour = thoughts */
+
+    .popup-calm .mapboxgl-popup-content {
+      background: #3fa7d6;
+      color: white;
+    }
+
+    .popup-vibrant .mapboxgl-popup-content {
+      background: #d30c7b;
+      color: white;
+    }
+
+    .popup-alive .mapboxgl-popup-content {
+      background: #00916e;
+      color: white;
+    }
+
+    .popup-chaotic .mapboxgl-popup-content {
+      background: #f17641;
+      color: white;
+    }
+
+    .popup-frantic .mapboxgl-popup-content {
+      background: #fa003f;
+      color: white;
+    }
+
+    /* -------------------------------------------------- */
+    /* LEGEND */
+    /* -------------------------------------------------- */
+
+    #timeline-legend {
+      position: absolute;
+      left: 24px;
+      bottom: 24px;
+
+      width: 520px;
+
+      padding: 18px 22px;
+
+      border-radius: 18px;
+
+      background: rgba(0,0,0,0.82);
+
+      color: white;
+
+      z-index: 999;
+    }
+
+    .legend-title {
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      overflow: hidden;
+      border-radius: 999px;
+    }
+
+    .thought {
+      text-align: center;
+      padding: 6px 0;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .calm {
+      background: #3fa7d6;
+    }
+
+    .vibrant {
+      background: #d30c7b;
+    }
+
+    .alive {
+      background: #00916e;
+    }
+
+    .chaotic {
+      background: #f17641;
+    }
+
+    .frantic {
+      background: #fa003f;
+    }
+
+    .scale-line {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-size: 12px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div id="map"></div>
+
+  <div id="timeline-legend">
+
+    <div class="legend-title">
+      How do you feel?
+    </div>
+
+    <div class="timeline">
+      <div class="thought calm">calm</div>
+      <div class="thought vibrant">vibrant</div>
+      <div class="thought alive">alive</div>
+      <div class="thought chaotic">chaotic</div>
+      <div class="thought frantic">frantic</div>
+    </div>
+
+    <div class="scale-line">
+      <span>0</span>
+      <span>score</span>
+      <span>100</span>
+    </div>
+
+  </div>
+
+  <audio id="thought-audio" preload="auto"></audio>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
