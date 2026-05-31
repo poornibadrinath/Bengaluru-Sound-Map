@@ -1,0 +1,54 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      
+      { "type": "Feature", "properties": { "name": "JP Nagar 6th Phase", "score": 88, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.5760, 12.9050] } },
+      { "type": "Feature", "properties": { "name": "JP Nagar 7th Phase", "score": 87, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.5702, 12.8990] } },
+      { "type": "Feature", "properties": { "name": "Anjanapura", "score": 82, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.5600, 12.8740] } },
+      { "type": "Feature", "properties": { "name": "Kanakapura Road Entry", "score": 80, "category": "tech" }, "geometry": { "type": "Point", "coordinates": [77.5620, 12.8920] } },
+      { "type": "Feature", "properties": { "name": "Uttarahalli", "score": 78, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.5480, 12.9060] } },
+      { "type": "Feature", "properties": { "name": "Kumaraswamy Layout", "score": 85, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.5625, 12.9085] } },
+
+      { "type": "Feature", "properties": { "name": "Richmond Town", "score": 92, "category": "food" }, "geometry": { "type": "Point", "coordinates": [77.6010, 12.9620] } },
+      { "type": "Feature", "properties": { "name": "Cunningham Road", "score": 91, "category": "food" }, "geometry": { "type": "Point", "coordinates": [77.5930, 12.9880] } },
+      { "type": "Feature", "properties": { "name": "Frazer Town", "score": 90, "category": "food" }, "geometry": { "type": "Point", "coordinates": [77.6140, 13.0000] } },
+      { "type": "Feature", "properties": { "name": "Shivajinagar Extension", "score": 89, "category": "market" }, "geometry": { "type": "Point", "coordinates": [77.6040, 12.9850] } },
+  
+      { "type": "Feature", "properties": { "name": "Whitefield EPIP Zone", "score": 85, "category": "tech" }, "geometry": { "type": "Point", "coordinates": [77.7260, 12.9790] } },
+      { "type": "Feature", "properties": { "name": "Hope Farm Junction", "score": 83, "category": "tech" }, "geometry": { "type": "Point", "coordinates": [77.7530, 12.9860] } },
+      { "type": "Feature", "properties": { "name": "Kadugodi", "score": 80, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.7570, 12.9970] } },
+      { "type": "Feature", "properties": { "name": "Varthur", "score": 78, "category": "tech" }, "geometry": { "type": "Point", "coordinates": [77.7450, 12.9400] } },
+      { "type": "Feature", "properties": { "name": "Gunjur", "score": 76, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.7130, 12.9240] } },
+  
+      { "type": "Feature", "properties": { "name": "Sarjapur Village", "score": 79, "category": "tech" }, "geometry": { "type": "Point", "coordinates": [77.7020, 12.8600] } },
+      { "type": "Feature", "properties": { "name": "Wipro SEZ", "score": 82, "category": "tech" }, "geometry": { "type": "Point", "coordinates": [77.6940, 12.9120] } },
+      { "type": "Feature", "properties": { "name": "Harlur Road", "score": 86, "category": "food" }, "geometry": { "type": "Point", "coordinates": [77.6600, 12.9000] } },
+      { "type": "Feature", "properties": { "name": "Kaikondrahalli", "score": 88, "category": "lake" }, "geometry": { "type": "Point", "coordinates": [77.6830, 12.9070] } },
+      { "type": "Feature", "properties": { "name": "Bellandur East Extension", "score": 20, "category": "traffic" }, "geometry": { "type": "Point", "coordinates": [77.6800, 12.9200] } },
+  
+      { "type": "Feature", "properties": { "name": "Yelahanka New Town", "score": 81, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.5940, 13.0970] } },
+      { "type": "Feature", "properties": { "name": "Jakkur", "score": 79, "category": "nature" }, "geometry": { "type": "Point", "coordinates": [77.6200, 13.0750] } },
+      { "type": "Feature", "properties": { "name": "Kogilu", "score": 77, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.6350, 13.0850] } },
+      { "type": "Feature", "properties": { "name": "Hennur Extension North", "score": 75, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.6600, 13.0450] } },
+      { "type": "Feature", "properties": { "name": "Thanisandra Main Road", "score": 74, "category": "tech" }, "geometry": { "type": "Point", "coordinates": [77.6400, 13.0650] } },
+  
+      { "type": "Feature", "properties": { "name": "Rajajinagar Industrial", "score": 82, "category": "industrial" }, "geometry": { "type": "Point", "coordinates": [77.5450, 12.9900] } },
+      { "type": "Feature", "properties": { "name": "Peenya", "score": 70, "category": "industrial" }, "geometry": { "type": "Point", "coordinates": [77.5230, 13.0350] } },
+      { "type": "Feature", "properties": { "name": "Nagarbhavi", "score": 84, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.5100, 12.9600] } },
+      { "type": "Feature", "properties": { "name": "Kengeri", "score": 80, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.4870, 12.9100] } },
+      { "type": "Feature", "properties": { "name": "Mysore Road Corridor", "score": 76, "category": "traffic" }, "geometry": { "type": "Point", "coordinates": [77.5050, 12.9450] } },
+  
+      { "type": "Feature", "properties": { "name": "Chalaghatta Metro Zone", "score": 78, "category": "transport" }, "geometry": { "type": "Point", "coordinates": [77.4570, 12.9120] } },
+      { "type": "Feature", "properties": { "name": "Kengeri Satellite Town", "score": 79, "category": "residential" }, "geometry": { "type": "Point", "coordinates": [77.4800, 12.9000] } },
+      { "type": "Feature", "properties": { "name": "Bidadi Road Entry", "score": 72, "category": "outskirts" }, "geometry": { "type": "Point", "coordinates": [77.4100, 12.7800] } },
+  
+      { "type": "Feature", "properties": { "name": "ORR Kadubeesanahalli", "score": 22, "category": "traffic" }, "geometry": { "type": "Point", "coordinates": [77.6950, 12.9350] } },
+      { "type": "Feature", "properties": { "name": "Silk Board South Extension", "score": 12, "category": "traffic" }, "geometry": { "type": "Point", "coordinates": [77.6200, 12.9100] } },
+      { "type": "Feature", "properties": { "name": "KR Puram Junction", "score": 18, "category": "traffic" }, "geometry": { "type": "Point", "coordinates": [77.6950, 13.0100] } },
+  
+      { "type": "Feature", "properties": { "name": "Hebbal Lake Edge", "score": 89, "category": "nature" }, "geometry": { "type": "Point", "coordinates": [77.5980, 13.0400] } },
+      { "type": "Feature", "properties": { "name": "Agara Lake", "score": 90, "category": "lake" }, "geometry": { "type": "Point", "coordinates": [77.6500, 12.9200] } },
+      { "type": "Feature", "properties": { "name": "Puttenahalli Lake", "score": 91, "category": "lake" }, "geometry": { "type": "Point", "coordinates": [77.5850, 12.8900] } }
+  
+    ]
+  }
